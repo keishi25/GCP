@@ -13,11 +13,11 @@ Create project on usual
 Make file for telling using ptyhnon libraries to GAE
 
 ### 3. main.py
-Nginx on GAE communicate with wsgi 
-"""from [project_name].wsgi import application"""
-"""app = application """
+Nginx on GAE communicate with wsgi </br>
+'''from [project_name].wsgi import application'''</br>
+'''app = application'''
 
 ### 4. app.yaml
-Configulation file of GAE
-"""runtime: python38"""
-"""service: [service_name]""" 
+Configulation file of GAE</br>
+'''runtime: python38'''</br>
+'''service: [service_name]'''
