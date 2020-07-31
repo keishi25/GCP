@@ -14,10 +14,10 @@ Make file for telling using ptyhnon libraries to GAE
 
 ### 3. main.py
 Nginx on GAE communicate with wsgi </br>
-'''from [project_name].wsgi import application'''</br>
-'''app = application'''
+from [project_name].wsgi import application </br> 
+app = application
 
 ### 4. app.yaml
 Configulation file of GAE</br>
-'''runtime: python38'''</br>
-'''service: [service_name]'''
+runtime: python38 </br>
+service: [service_name]
