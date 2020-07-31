@@ -8,7 +8,6 @@
 
 ### 1. natural django framework codes
 Create project on usual
-But allow ip addres by changing ALLOWED_HOST=[*]
 
 ### 2. requirements.txt
 Make file for telling using ptyhnon libraries to GAE
@@ -22,6 +21,3 @@ app = application
 Configulation file of GAE</br>
 runtime: python38 </br>
 service: [service_name]
-
-### How to debug
-$gcloud app logs read
