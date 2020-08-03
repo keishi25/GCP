@@ -1,14 +1,14 @@
 # How to Use GAE
 ## Django deploy on GAE
 ### required codes
-1. natural django framework codes
+1. django framework codes
 2. requirements.txt
 3. main.py 
 4. app.yaml
 
-### 1. natural django framework codes
-Create project on usual
-But allow ip addres by changing ALLOWED_HOST=[*]
+### 1. django framework codes
+Create django project on usual</br>
+But allow ip addres by changing into ALLOWED_HOST=['*']
 
 ### 2. requirements.txt
 Make file for telling using ptyhnon libraries to GAE
