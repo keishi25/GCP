@@ -8,7 +8,7 @@
 
 ### 1. django framework codes
 Create django project on usual</br>
-But allow ip addres by changing into ALLOWED_HOST=['*']
+But allow any ip addres by changing into ALLOWED_HOST=['*']
 
 ### 2. requirements.txt
 Make file for telling using ptyhnon libraries to GAE
