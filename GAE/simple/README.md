@@ -1,5 +1,5 @@
 # How to Use GAE
-## Django deploy on GAE
+## Django deploy on standard GAE
 ### required codes
 1. django framework codes
 2. requirements.txt
