@@ -1,15 +1,21 @@
 # GAE + postgresql + Djangoサンプル
-GCP上で下記準備後実行可能（現在削除済み）
+### 下記サイトで実行可能
+https://cloud.google.com/python/django/flexible-environment?hl=ja#postgres-client
+### GCP上で下記準備後実行可能（現在削除済み）
 
-cloudsql
-balmy-platform-305710:asia-northeast1:test
-下記postgresql上での設定
-db_name=test
-user_pass=1234
-user_name=test
+## cloudsql
+- balmy-platform-305710:asia-northeast1:test
 
-cloud storage
-test_123412341234
+ ### 下記postgresql上での設定
+- db_name=test
+-  user_pass=1234
+-  user_name=test
+
+## cloud storage
+-  test_123412341234
+
+## ローカル環境での準備
+-  cloud_sql_proxy.exe
 
 
 # Getting started with Django on Google Cloud Platform on App Engine Flexible
